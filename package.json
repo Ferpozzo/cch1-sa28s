@@ -1,0 +1,25 @@
+{
+  "name": "sa28s",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.0.0"
+  },
+  "bin": {
+    "cesar": "./src/cesar/index.js",
+    "decifra": "./src/decifra/index.js",
+    "vernam": "./src/vernam/index.js"
+  },
+  "cesarVersion": "1.0.0",
+  "decifraVersion": "1.0.0",
+  "vernamVersion": "1.0.0"
+}
